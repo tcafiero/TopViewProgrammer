@@ -1,1 +1,1 @@
-openocd -f interface\stlink.cfg -f target\nrf52.cfg -c "program %1 verify reset exit"
+openocd -f interface\%2.cfg -f target\nrf52.cfg -c "program %1 verify reset exit"
